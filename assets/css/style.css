@@ -61,6 +61,7 @@ hr { clear:both;
 	background-image:url("../images/pow-star.png");
 	margin-top: 0;
 	overflow: auto;
+	position: relative;
 }
 
 .left-wrapper {
@@ -89,6 +90,12 @@ aside {
 	text-align: center;
 }
 
+.foot {
+	position: fixed;
+	bottom: 0;
+	width:100%;
+	z-index: 3;
+}
 .footer-bar { 
 	clear:both;
 	margin: 0;
@@ -105,11 +112,13 @@ footer {
 	text-align: center;
 	font-size: 80%;
 	color:#ccc;
+	width:100%;
 }
 
 .formInputLable {
 	margin: 0;
 	padding:5px; 
+	width:100%;
 }
 
 #submitBtn {
@@ -119,11 +128,32 @@ footer {
     border:none;
 }
 
+.thumbnail {
+	position: relative;
+	z-index: 1;
+	float:left;
+	margin:10px;
+}
+
+
+.thumbnail-lbl {
+	position: absolute;
+	top:100px;
+	z-index: 2;
+	
+}
+
 .thumb-name {
 	margin: 0;
 	padding:5px;
 	background-color: #4aaaa5;
 	color:#ffffff;
-	border:solid;
+	font-family: "Georgia", Times, "Times New Roman", serif;
+	border:0;
+	width:150px;
 	float:left;
+}
+
+.clearfloat {
+	clear:both;
 }
