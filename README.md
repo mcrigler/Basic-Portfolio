@@ -1,2 +1,2 @@
-# Basic-Portfolio
-Week 1 homework assignment
+# mcrigler.github.io
+Publishing webpages
